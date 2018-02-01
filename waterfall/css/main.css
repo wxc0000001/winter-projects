@@ -1,1 +1,35 @@
-c
+*{margin: 0;padding: 0;}
+#main{
+	position: relative;
+}
+
+.box{
+	padding: 15px 0 0 15px;
+	float: left;
+}
+
+.pic{
+	/*width:200px;*/
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #ccc;
+}
+
+.pic img{
+	width: 200px;
+	height: auto;
+}
+
+/*css 3 实现瀑布流
+#main{
+	-webkit-column-width:237px;
+	-moz-column-width:237px;
+	-o-column-width:237px;
+	-ms-column-width:237px;
+二选一即可
+	-webkit-column-count:5;
+	-moz-column-count:5;
+	-o-column-count:5;
+	-ms-column-count:5;
+}*/
